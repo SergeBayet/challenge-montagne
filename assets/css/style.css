@@ -1,3 +1,109 @@
+@media only screen and (max-width: 576px)
+{
+  body {
+		width:100%;
+	}
+	h1 {
+		font-size:40px;
+	}
+	h2 {
+		font-size:20px;
+	}
+	p {
+		font-size:16px !important;
+	}
+	a.button.big {
+		font-size:12px !important;
+	}
+	.divided section:first-child {
+		width:100%;
+		display:flex;
+		flex-direction:column-reverse;
+		align-content:center;
+		text-align:center;
+		
+	}
+	.banner.style1.fullscreen {
+		min-height:auto;
+	}
+	.banner.style1 .content {
+		padding: 2rem 2rem 2rem 2rem;
+		width:100%;
+	}
+	.banner.style1 .image {
+		width:100%;
+	}
+	.banner.style1 .image img {
+		position:relative;
+		height:auto;
+	}
+	.divided section:nth-child(2) {
+		flex-direction:column-reverse !important;
+		flex-wrap:wrap;
+		align-content:center;
+		text-align:center;
+	}
+	.divided section:nth-child(2) .content {
+		padding: 2rem 2rem 2rem 2rem;
+		width:100%;
+	}
+	.divided section:nth-child(2) .image {
+		
+		width:100%;
+	}
+	.divided section:nth-child(2) .image img {
+		position: relative;
+		height:auto;
+	}
+	
+	.divided section:nth-child(3) {
+		flex-direction:column-reverse !important;
+		flex-wrap:wrap;
+		align-content:center;
+		text-align:center;
+	}
+	.divided section:nth-child(3) .content {
+		padding: 2rem 2rem 2rem 2rem;
+		width:100%;
+	}
+	.divided section:nth-child(3) .image {
+		
+		width:100%;
+	}
+	.divided section:nth-child(3) .image img {
+		position: relative;
+		height:auto;
+	}
+
+	.divided section:nth-child(4) {
+		flex-direction:column-reverse !important;
+		flex-wrap:wrap;
+		align-content:center;
+		text-align:center;
+	}
+	.divided section:nth-child(4) .content {
+		padding: 2rem 2rem 2rem 2rem;
+		width:100%;
+	}
+	.divided section:nth-child(4) .image {
+		
+		width:100%;
+	}
+	.divided section:nth-child(4) .image img {
+		position: relative;
+		height:auto;
+	}
+	.items.style1.medium > * {
+		width:100%;
+		border-width:0;
+		border-top-width:1px;
+		border-bottom-width:1px;
+	}
+	.gallery.style2 article .image img {
+		height:360px;
+	}
+}
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
 	body {
 		width:100%;
